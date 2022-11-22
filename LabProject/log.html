@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Main div code -->
+    <div id="main">
+        <div class="h-tag">
+            <h2>Login Your Account (For Admin)</h2>
+        </div>
+        <!-- login account div -->
+        <div class="login">
+            <table cellspacing="2" align="center" cellpadding="8" border="0">
+                <tr>
+                    <td align="right">Enter Email ID :</td>
+                    <td><input type="text" placeholder="Enter Email ID here" id="logemail" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Enter Password :</td>
+                    <td><input type="password" placeholder="Enter Password here" id="logpassword" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="reset" value="Clear Form" onclick="clearLogForm()" id="res" class="btn" />
+                        <input type="button" id="enter" value="Enter" class="btn" onclick="login()" /><br><br>
+                        <a href="./reg.html" class="btn" id="fromRegtoStudentLink" >Do you want to register?</a>
+                        <a href="./studentlog.html" class="btn" id="fromRegtoStudentLink" >Are you student?</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <!-- Enter account box ending here.. -->
+    </div>
+    <!-- Main div ending here... -->
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

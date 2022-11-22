@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Main div code -->
+    <div id="main">
+        <div class="h-tag">
+            <h2>Create Your Account (For Admin)</h2>
+        </div>
+        <!-- create account div -->
+        <div class="reg">
+            <table cellspacing="2" align="center" cellpadding="8" border="0">
+                <tr>
+                    <td align="right">Enter Name :</td>
+                    <td><input type="text" placeholder="Enter Admin here" id="firstname" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Enter Email ID :</td>
+                    <td><input type="text" placeholder="Enter Email ID here" id="email" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Enter Username :</td>
+                    <td><input type="text" placeholder="Enter Username here" id="username" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Enter Password :</td>
+                    <td><input type="password" placeholder="Enter Password here" id="password" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td align="right">Enter Confirm Password :</td>
+                    <td><input type="password" placeholder="Enter Password here" id="passwordconfirm" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="reset" value="Clear Form" onclick="clearRegForm()" id="res" class="btn" />
+                        <input type="submit" value="Create Account" class="btn" onclick="registration()" /><br><br>
+                        <a href="./studentlog.html" class="btn " id="fromRegtoStudentLink"  >Are you student?</a>
+                        <a href="./log.html" class="btn " id="fromRegtoStudentLink"  >Do you have account?</a>
+                    </td>
+                    
+                </tr>
+            </table>
+        </div>
+        <!-- create account box ending here.. -->
+    </div>
+    <!-- Main div ending here... -->
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

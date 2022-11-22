@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <a href="./done.html" onclick="addDone()">DONE </a>
+  <div class="container">
+    <div class="app">
+      <h1>TO DO LIST</h1>
+      <h2>Verification code
+         <br>
+        <input type="text" id="vfCode"placeholder="Enter Verification code">
+        <input type="submit" id="vfCodeBtn"  value="Set VF code" onclick="vfCodeSet()">
+        <a href="./done.html" id="doneLinktoOtherPage">Done TASKS</a>
+      </h2>
+      <form id="fform">
+        <input type="text" placeholder="Add new task...">
+        <button type="submit">&plus;</button>
+      </form>
+      <ul></ul>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>

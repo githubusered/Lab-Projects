@@ -1,0 +1,221 @@
+body {
+    margin: 0px;
+    background-color: #f26724;
+    background-image: url("../images/reggg-bg.png");
+    color: #f9fcf5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    width: 600px;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-top: 100px;
+    border-top: 3px double #f1f1f1;
+    border-bottom: 3px double #f1f1f1;
+    padding-top: 20px;
+}
+
+#main table {
+    font-family: "Comic Sans MS", cursive;
+}
+
+/* css code for textbox */
+#main .tb {
+    height: 28px;
+    width: 230px;
+    border: 1px solid #f26724;
+    color: #fd7838;
+    font-weight: bold;
+    border-left: 5px solid #f7f7f7;
+    opacity: 0.9;
+}
+
+#main .tb:focus {
+    height: 28px;
+    border: 1px solid #f26724;
+    outline: none;
+    border-left: 5px solid #f7f7f7;
+}
+
+/* css code for button*/
+#main .btn {
+    width: 150px;
+    height: 32px;
+    outline: none;
+    color: #f7f7f7;
+    font-weight: bold;
+    border: 0px solid #f26724;
+    text-shadow: 0px 0.5px 0.5px #fff;
+    border-radius: 2px;
+    font-weight: 600;
+    color: #f26724;
+    letter-spacing: 1px;
+    font-size: 14px;
+    background-color: #f1f1f1;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#main .btn:hover {
+    background-color: #f26724;
+    outline: none;
+    border-radius: 2px;
+    color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+
+#fromRegtoStudentLink {
+    padding: 7px;
+}
+
+/* *********************** Tasks CSS ******************************/
+
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap");
+
+* {
+    margin: 0
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.app {
+    width: 60%;
+}
+
+@media (max-width:768px) {
+    .app {
+        width: 90%;
+    }
+}
+
+.app h1 {
+    color: white;
+    font-size: 40px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: .5rem .5rem 0 0;
+    background-color: #de3f53;
+    font-family: "Rajdhani", sans-serif;
+}
+
+.app form {
+    display: flex;
+    width: 100%;
+    background-color: #262e4c;
+}
+
+.app form input {
+    border: none;
+    background-color: #3c4979;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    width: 90%;
+}
+
+.app form button {
+    border: none;
+    color: white;
+    background-color: #1dd2af;
+    font-size: 25px;
+    font-weight: 600;
+    height: 42px;
+    width: 10%;
+}
+
+.app ul {
+    list-style: none;
+    color: #e0e0e0;
+    padding: 0;
+}
+
+.app ul li {
+    padding: 10px;
+    background-color: #262e4c;
+    border-bottom: 1px solid #3a4674;
+}
+
+.check {
+    width: 0.8em;
+    height: 0.8em;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+
+.check:checked {
+    background-color: #1dd2af;
+}
+
+.task {
+    font-size: 18px;
+    padding: 0 10px;
+    width: fit-content;
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+.task:focus {
+    outline: none;
+}
+
+.app ul li i {
+    float: right;
+    cursor: pointer;
+}
+
+.app ul li i:hover {
+    color: rgb(255, 82, 82);
+}
+
+.completed {
+    color: rgba(192, 192, 192, 0.8);
+    text-decoration: line-through;
+}
+
+h2 input{
+    padding: 5px;
+    margin: 5px;
+}
+/* *********************** Done CSS ******************************/
+#doneUl{
+    list-style: none;
+    color: #e0e0e0;
+    padding: 0;
+}
+
+#doneUl li{
+    padding: 10px;
+    background-color: #262e4c;
+    border-bottom: 1px solid #3a4674;
+}
+#doneP{
+    font-size: 50px;
+}
+#doneLinktoOtherPage{
+    font-size: 20px;
+    color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+}

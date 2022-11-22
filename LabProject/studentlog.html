@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Main div code -->
+    <div id="main">
+        <div class="h-tag">
+            <h2>If you are student you can be invited by Admin with <br> Verification Code</h2>
+        </div>
+        <!-- 'Student can enter to the  account' div -->
+        <div class="studentLogin">
+            <table cellspacing="2" align="center" cellpadding="8" border="0">
+                <tr>
+                    <td align="right">Verification Code :</td>
+                    <td><input type="text" placeholder="Enter VFCode here" id="chkverification" class="tb" /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Enter" class="btn" onclick="checkVFCode()" /><br><br>
+                        <a href="./log.html" class="btn" id="fromRegtoStudentLink" >Are you Admin?</a></td>
+                    
+                </tr>
+            </table>
+        </div>
+        <!-- Student account box ending here.. -->
+    </div>
+    <!-- Main div ending here... -->
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
